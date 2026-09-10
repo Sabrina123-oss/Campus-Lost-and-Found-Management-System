@@ -1,0 +1,207 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8faf8;
+  color: #222;
+}
+
+/* Navbar */
+
+.navbar {
+  background: #176b3a;
+  padding: 14px 0;
+}
+
+.navbar-brand {
+  font-size: 23px;
+}
+
+/* Hero Section */
+
+.hero {
+  background: #e9f5ec;
+  padding: 90px 0;
+}
+
+.eyebrow {
+  color: #176b3a;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.hero h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin: 14px 0;
+}
+
+.hero h1 span {
+  color: #176b3a;
+}
+
+.hero p {
+  max-width: 560px;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.hero-art {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 95px;
+  box-shadow: 0 10px 30px #0001;
+}
+
+/* Buttons */
+
+.btn-primary {
+  background: #176b3a;
+  border-color: #176b3a;
+}
+
+.btn-primary:hover {
+  background: #0f522b;
+  border-color: #0f522b;
+}
+
+/* Cards & Panels */
+
+.feature-card,
+.panel,
+.form-card,
+.stat-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 28px;
+  box-shadow: 0 5px 18px #0000000d;
+}
+
+.feature-card {
+  text-align: center;
+  height: 100%;
+}
+
+.feature-card b {
+  font-size: 42px;
+}
+
+.feature-card h4 {
+  margin-top: 12px;
+}
+
+.page-header {
+  background: #e9f5ec;
+  padding: 55px 0;
+}
+
+.form-card {
+  max-width: 760px;
+  margin: 30px auto;
+}
+
+.item-card {
+  height: 100%;
+  border: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px #00000012;
+}
+
+.item-image {
+  height: 180px;
+  background: #e7f2e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+/* Sidebar */
+
+.sidebar {
+  min-height: 100vh;
+  background: #176b3a;
+  color: white;
+  padding: 25px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 4px 0;
+}
+
+.sidebar a:hover {
+  background: #ffffff22;
+}
+
+.dashboard-main {
+  padding: 30px;
+}
+
+/* Stat Cards */
+
+.stat-card h2 {
+  color: #176b3a;
+}
+
+/* Table Card */
+
+.table-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 18px #0000000d;
+}
+
+/* Footer */
+
+footer {
+  background: #123d25;
+  color: white;
+  padding: 35px 0;
+}
+
+footer p {
+  color: #c8d8cd;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    margin: auto auto 20px;
+  }
+
+  .hero-art {
+    width: 180px;
+    height: 180px;
+    font-size: 70px;
+    margin-top: 35px;
+  }
+
+  .sidebar {
+    min-height: auto;
+  }
+}
